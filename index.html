@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../my_site/calcu/calculator.css">
+    <title>document</title>
+    <script type="text/javascript" src="../my_site/calcu/calculator.js">
+    </script>
+
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="logo.jpg" alt="Unable to load image" >
+    <table class="tables">
+      <tr>
+          <td colspan="3"><input type="text" value="" id="displaybar"/></td>
+          <td><input type="button" value="CLR" onclick="clr()"/></td>
+      </tr>
+
+        <tr>
+            <td><input type="button" value="1" onclick="Sel('1')"/></td>
+            <td><input type="button" value="2" onclick="Sel('2')"/></td>
+            <td><input type="button" value="3" onclick="Sel('3')"/></td>
+            <td><input type="button" value="+" onclick="Sel('+')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="Sel('4')"/></td>
+            <td><input type="button" value="5" onclick="Sel('5')"/></td>
+            <td><input type="button" value="6" onclick="Sel('6')"/></td>
+            <td><input type="button" value="-" onclick="Sel('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="Sel('7')"/></td>
+            <td><input type="button" value="8" onclick="Sel('8')"/></td>
+            <td><input type="button" value="9" onclick="Sel('9')"/></td>
+            <td><input type="button" value="*" onclick="Sel('*')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="Sel('.')"/></td>
+            <td><input type="button" value="0" onclick="Sel('0')"/></td>
+            <td><input type="button" value="=" onclick="Solve()"/></td>
+            <td><input type="button" value="/" onclick="Sel('/')"/></td>
+        </tr>
+
+    </table>
+  </div>
+</body>
+</html>

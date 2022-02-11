@@ -1,0 +1,55 @@
+body{
+  background-color: aliceblue;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+/* .container{
+  height: 100% ;
+  width: 100% ;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  background : ;
+} */
+.logo{
+  background: aliceblue;
+  margin-left: 30%;
+  height: 100px;
+  width: 150px;
+}
+.tables{
+  background: radial-gradient(circle,white 10%,rgb(84, 74, 75)) ;
+  /* background: rgba(10,10,10,0.4); */
+}
+input{
+  border: solid rgba(84, 74, 75,0.7) ;
+  width: 80px;
+  height: 60px;
+  padding: 10px 20px  ;
+  background: radial-gradient(circle,white 10%,rgb(84, 74, 75)) ;
+  transform: scale(1.0);
+}
+input:hover{
+  border: solid rgba(84, 74, 75,0.7) ;
+  width: 80px;
+  height: 60px;
+  padding: 10px 20px  ;
+  background: radial-gradient(circle,white 20%,rgb(84, 74, 75)) ;
+  transform: scale(1.0);
+}
+input:active{
+  border: solid rgba(84, 74, 75,0.7) ;
+  width: 80px;
+  height: 60px;
+  padding: 10px 20px  ;
+  background: radial-gradient(circle,white 20%,rgb(84, 74, 75)) ;
+  transform: scale(0.9);
+}
+
+#displaybar{
+background: white;
+width: 203px;
+height: 35px;
+text-align: right;
+}
